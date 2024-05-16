@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.share-icon {
+  height: 24px;
+}
+
+.offcanvas *{
+  background-color: #001a2d;
+}
