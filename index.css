@@ -24,3 +24,11 @@
 .nav-link {
   color: #f8f9fa !important;
 }
+
+.hero-bg {
+  background-image: url('./assets/images/prank-1200x1200-d1-quote.jpeg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
