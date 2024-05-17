@@ -12,3 +12,11 @@
 .offcanvas *{
   background-color: #001a2d;
 }
+
+.hashtag {
+  color: #f8f9fa;
+}
+
+.nav-link {
+  color: #f8f9fa !important;
+}
