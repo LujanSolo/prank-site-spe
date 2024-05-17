@@ -40,6 +40,11 @@ body {
   background-color: #001a2d;
 }
 
+.offcanvas-body ul {
+  display: flex;
+  justify-content: center;
+}
+
 .hashtag {
   color: #f8f9fa;
 }
