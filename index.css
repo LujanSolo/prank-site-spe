@@ -17,6 +17,10 @@
   color: #f8f9fa;
 }
 
+.bg-dark {
+  --bs-bg-opacity: 0 !important;
+}
+
 .nav-link {
   color: #f8f9fa !important;
 }
