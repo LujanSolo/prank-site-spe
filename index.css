@@ -2,7 +2,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: black;
+  background-color: rgb(3, 3, 5);
+}
+
+a {
+  color: #007bff;
+}
+
+h1 {
+  color: white;
+}
+
+body {
+  font-family: 'Roboto condensed', sans-serif;
+  color: white;
+  font-size: 14px;
+  background: black;
 }
 
 .share-icon {
@@ -26,9 +41,22 @@
 }
 
 .hero-bg {
-  background-image: url('./assets/images/prank-1200x1200-d1-quote.jpeg');
+  background-image: url(./assets/images/bg.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 897px;
+  z-index: -1;
+}
+
+.title-mobile {
+  display: none;
+}
+
+.social-icons-container {
+  margin: 15px 0 5px 0;
+}
+
+.social-icons-container a {
+  display: inline-block;
 }
