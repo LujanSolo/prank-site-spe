@@ -47,6 +47,12 @@
   padding-top: 120px;
 }
 
+.nav-container {
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 .nav-container a {
   padding: 12px 20px;
 }
@@ -58,6 +64,27 @@
 
 .hashtag {
   color: #f8f9fa;
+  padding: 20px 0 5px 0;
+}
+
+.icons-container {
+  width: 100%;
+  transition: top 0.3s;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.icons-container a {
+  color: #ffffff !important;
+  transition: padding 0.5s ease;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+.icons-container img {
+  height: 20px;
+  width: auto;
 }
 
 h1 {
