@@ -17,7 +17,7 @@ body {
   font-size: 14px;
   background: black;
   zoom: 1;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 /* .wrapper {
@@ -113,7 +113,7 @@ body {
   --bs-bg-opacity: 0 !important;
 }
 
-.hero-bg {
+.page-bg {
   width: 100%;
   position: absolute;
   /* z-index: 0; */
@@ -130,7 +130,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.hero-section {
+.titling-section {
   height: 897px;
   /* max-width: 100%; */
   /* display: flex;
@@ -141,7 +141,7 @@ body {
   /* position: relative; */
 }
 
-.hero-wrapper {
+.titling-wrapper {
   display: flex;
   justify-content: center;
   /* flex-direction: row; */
@@ -155,7 +155,7 @@ body {
   background-color: transparent;
 }
 
-.hero-headliners {
+.titling-headliners {
   position: absolute;
   top: 6vh;
   max-height: 8vh;
@@ -172,7 +172,7 @@ body {
   background-color: transparent;
 }
 
-.hero-h1 {
+.titling-h1 {
   margin: 0;
   width: 100%;
   text-align: center;
