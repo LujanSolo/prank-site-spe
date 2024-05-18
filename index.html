@@ -22,9 +22,11 @@
     <header class='header'>
       <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid d-flex justify-content-end align-items-center">
-          <a class="navbar-brand" href="#">
-            <img class='share-icon' src='./assets/icons/share-icon.png' alt="social sharing" />
-          </a>
+          <div class="share-container">
+            <a class="navbar-brand share-btn" href="#">
+              <img class='share-icon' src='./assets/icons/share-icon.png' alt="social sharing" />
+            </a>
+          </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
             aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,10 +37,10 @@
               <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                 aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
+            <div class="offcanvas-body nav-container">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+                  <a class="nav-link active-link" aria-current="page" href="#home">HOME</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#trailer">TRAILER</a>
@@ -74,15 +76,21 @@
       </nav>
     </header>
 
+
+
+
+
+
+
     <!--* MAIN -->
     <main class="main-container">
       
       <div class="hero-bg"></div>
 
-      <section class="hero">
-        <div class="hero-content">
-          <img class="hero-headliners" src="./assets/images/names.png" alt="Headling Actors: Connor Kalopsis, Ramona Young, and Rita Moreno" />
-          <h1>
+      <section class="hero-section">
+        <div class="hero-wrapper">
+          <img class="hero-headliners img-fluid" src="./assets/images/names.png" alt="Headling Actors: Connor Kalopsis, Ramona Young, and Rita Moreno" />
+          <h1 class="hero-h1">
             <img class="title-desktop" src="./assets/images/tt.png" alt="The Prank - main titling" />
           </h1>
           <div class="animated-scroll">
@@ -104,6 +112,14 @@
 
     </main>
   </div>
+
+
+
+
+
+
+
+
 
 
 
