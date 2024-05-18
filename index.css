@@ -131,6 +131,7 @@ body {
 }
 
 .titling-section {
+  display: flex;
   height: 897px;
   /* max-width: 100%; */
   /* display: flex;
@@ -149,7 +150,7 @@ body {
   align-items: flex-end;
   width: 100vw;
   height: 100%;
-  right: -3%;
+  /* right: -3%; */
   position: relative;
 
   background-color: transparent;
