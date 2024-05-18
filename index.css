@@ -180,6 +180,21 @@ body {
   background-color: transparent;
 }
 
+.titling-quote {
+  color: rgb(210, 185, 69);
+  font-size: 24px;
+  padding: 10px;
+  margin-right: 20px;
+  position: absolute;
+  top: 30vh;
+  left: 60vw;
+  background-color: transparent;
+}
+
+.titling-quote span {
+  background-color: transparent;
+}
+
 .title-mobile {
   display: none;
 
@@ -196,4 +211,15 @@ body {
 
 .synopsis-section {
   display: flex;
+}
+
+
+/** TYPOGRAPHY **/
+
+.sm-text {
+  font-size: 18px;
+}
+
+.italic {
+  font-style: italic;
 }
