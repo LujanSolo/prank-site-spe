@@ -208,9 +208,47 @@ body {
   background-color: rgb(16, 16, 18);
 }
 
-.synopsis-section {
-  /* height: 897px; */
-  /* background-color: #0b2538; */
+
+
+/** SYNOPSIS SECTION **/
+.synopsis-h2 {
+  text-align: center;
+}
+
+.synopsis-wrapper {
+  display: flex;
+}
+
+.poster-container {
+ display: inline-block;
+ width: 40%; 
+}
+
+.synopsis-text {
+  width: 60%;
+  padding: 0 20px;
+}
+
+.left-column {
+  color: #2a9bcb;
+  float: left;
+  width: 50%;
+}
+
+.right-column {
+  color: #d5d5d5;
+  float: right;
+  width: 50%;
+  text-transform: none;
+}
+
+.synopsis-bug {
+  max-height: 35px;
+}
+
+/* .synopsis-section {
+  display: flex;
+  flex-direction: column;
 }
 
 .synopsis-section * {
@@ -226,18 +264,15 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0 200px;
-  /* padding: 0 35px; */
-}
-
-.poster-container {
-  /* padding: 0 35px; */
-  /* width: 85%; */
 }
 
 .synopsis-text {
   padding: 15px 20px 5px 40px;
-}
+} */
 
+
+
+/** SIGNUP SECTION **/
 .signup-section {
   /* height: 897px; */
   display: flex;
@@ -332,4 +367,19 @@ body {
 .card-title,
 .card-text {
   color: #d5d5d5 !important;
+}
+
+
+
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+
+.element {
+  @include clearfix;
 }
