@@ -228,3 +228,7 @@ body {
 .italic {
   font-style: italic;
 }
+
+.card-title, .card-text {
+  color: #d5d5d5 !important;
+}
