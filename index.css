@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   background-color: rgb(3, 3, 5);
-  
+
 }
 
 h1 {
@@ -168,7 +168,7 @@ body {
   margin: 0;
   width: 100%;
   text-align: center;
-  
+
   background-color: transparent;
 }
 
@@ -208,13 +208,50 @@ body {
   display: inline-block;
 }
 
+.trailer-section {
+  display: flex;
+  justify-content: center;
+  height: 897px;
+}
+
 .streaming-section {
+  height: 897px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .synopsis-section {
+  height: 897px;
+}
+
+.synopsis-headline {
+  text-align: center;
+}
+
+.synopsis-wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 200px;
+  /* padding: 0 35px; */
+}
+
+.poster-container {
+  /* padding: 0 35px; */
+  width: 35%;
+}
+
+.synopsis-text {
+  padding: 15px 20px 5px 40px;
+  width: 50%;
+}
+
+.signup-section {
+  height: 897px;
+  display: flex;
+  justify-content: center;
+
 }
 
 
@@ -228,6 +265,7 @@ body {
   font-style: italic;
 }
 
-.card-title, .card-text {
+.card-title,
+.card-text {
   color: #d5d5d5 !important;
 }
