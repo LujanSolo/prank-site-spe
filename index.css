@@ -144,15 +144,13 @@ body {
 
 .titling-wrapper {
   display: flex;
-  justify-content: center;
-  /* flex-direction: row; */
+  justify-content: flex-end;
+  flex-direction: row;
   /* justify-content: flex-start; */
   align-items: flex-end;
   width: 100vw;
   height: 100%;
-  /* right: -3%; */
   position: relative;
-
   background-color: transparent;
 }
 
@@ -164,21 +162,22 @@ body {
   background-color: transparent;
 }
 
-.title-desktop {
-  max-height: 40vh;
-  /* max-width: 85%; */
-  /* margin: 0 auto; */
-  /* margin-top: 22vh; */
-
-  background-color: transparent;
-}
-
 .titling-h1 {
+  display: flex;
+  justify-content: flex-end;
   margin: 0;
   width: 100%;
   text-align: center;
+  
   background-color: transparent;
 }
+
+.title-desktop {
+  max-height: 40vh;
+  background-color: transparent;
+}
+
+
 
 .titling-quote {
   color: rgb(210, 185, 69);
