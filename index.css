@@ -209,6 +209,11 @@ body {
   display: inline-block;
 }
 
+.streaming-section {
+  display: flex;
+  justify-content: space-around;
+}
+
 .synopsis-section {
   display: flex;
 }
