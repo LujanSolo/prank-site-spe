@@ -19,6 +19,7 @@ body {
 }
 
 .header {
+  display: flex;
   position: fixed;
   right: 0;
   text-align: center;
@@ -34,10 +35,15 @@ body {
   color: #f8f9fa !important;
 }
 
+/**-- share container --*/
 .share-icon {
   height: 25px;
   margin: 5px;
   cursor: pointer;
+}
+
+.share-container {
+  margin-top: 1rem;
 }
 
 .navbar-toggler {
@@ -243,8 +249,8 @@ body {
 }
 
 .poster-container {
- display: inline-block;
- width: 40%; 
+  display: inline-block;
+  width: 40%; 
 }
 
 .synopsis-text {
@@ -365,7 +371,11 @@ body {
 
 /** MY STYLES **/
 .transparent {
-  background-color: transparent;
+background-color: transparent !important;
+}
+
+.dark-bg {
+  background-color: #07090a !important;
 }
 
 
