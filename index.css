@@ -7,8 +7,8 @@
 
 .wrapper {
   width: 100%;
-    position: relative;
-    margin: 0 auto;
+  position: relative;
+  margin: 0 auto;
 }
 
 .page-bg {
@@ -40,6 +40,8 @@ body {
   background-color: rgb(3, 3, 5);
 }
 
+/** HEADER/FOOTER **/
+
 .header {
   display: flex;
   position: fixed;
@@ -53,10 +55,27 @@ body {
   background-color: transparent;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  top: auto;
+  bottom: 0;
+  background: #000000;
+  font-size: 9px;
+  padding: 5px 0;
+  color: rgb(224, 226, 230);
+  z-index: 2000;
+  position: fixed;
+  width: 100%;
+}
+
 .billing-block {
   max-width: 95%;
-  margin: 15px auto;
   background-color: transparent !important;
+}
+
+.rating-bug {
+  max-height: 35px;
 }
 
 .nav-link {
@@ -292,9 +311,7 @@ body {
   color: #fff;
 }
 
-.rating-bug {
-  max-height: 35px;
-}
+
 
 /* .synopsis-section {
   display: flex;
@@ -423,30 +440,35 @@ body {
   @include clearfix;
 }
 
-@media screen and (max-width: 1024px), screen and (device-width: 1334px) and (device-height: 800px) and (orientation: landscape), screen and (device-width: 1194px) and (device-height: 834px) and (orientation: landscape), screen and (device-width: 1194px) and (device-height: 760px) and (orientation: landscape), screen and (device-width: 1366px) and (device-height: 1024px) and (orientation: landscape) {
+@media screen and (max-width: 1024px),
+screen and (device-width: 1334px) and (device-height: 800px) and (orientation: landscape),
+screen and (device-width: 1194px) and (device-height: 834px) and (orientation: landscape),
+screen and (device-width: 1194px) and (device-height: 760px) and (orientation: landscape),
+screen and (device-width: 1366px) and (device-height: 1024px) and (orientation: landscape) {
   .page-bg {
-      background-size: auto 75%;
+    background-size: auto 75%;
   }
 }
 
-@media screen and (max-width: 1200px), screen and (device-width: 1138px) and (device-height: 712px) and (orientation: landscape) {
+@media screen and (max-width: 1200px),
+screen and (device-width: 1138px) and (device-height: 712px) and (orientation: landscape) {
   .titling-h1 {
-      max-width: 100%;
+    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 912px) and (orientation: portrait) {
   .page-bg {
-      background-image: url(./assets/images/page-bg-small.jpeg);
-      background-size: 100% auto;
-      background-color: #000000;
-      background-position: center -1vh;
-      height: 812px;
+    background-image: url(./assets/images/page-bg-small.jpeg);
+    background-size: 100% auto;
+    background-color: #000000;
+    background-position: center -1vh;
+    height: 812px;
   }
 }
 
 @media screen and (max-width: 560px) {
   .page-bg {
-      background-size: auto 80vh;
+    background-size: auto 80vh;
   }
 }
