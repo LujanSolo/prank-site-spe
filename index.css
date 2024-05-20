@@ -435,5 +435,12 @@ body {
       background-size: 100% auto;
       background-color: #000000;
       background-position: center -1vh;
+      height: 812px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .page-bg {
+      background-size: auto 80vh;
   }
 }
