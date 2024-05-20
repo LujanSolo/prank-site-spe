@@ -17,8 +17,9 @@
 
 <body>
 
-  <!--* HEADER -->
+  
   <div class='wrapper'>
+    <!--* HEADER -->
     <header class='header'>
       <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid d-flex justify-content-end align-items-center">
@@ -82,12 +83,9 @@
       </nav>
     </header>
 
-
-
-
     <!--* MAIN -->
     <main class="main-container">
-
+      <!--* homepage background-->
       <div class="page-bg"></div>
 
       <!--* HOMEPAGE-->
@@ -249,9 +247,8 @@
         </div>
       </section>
 
-      <h2>SIGN UP</h2>
       <!--* SIGN UP PAGE-->
-      <section class="signup-section" id="signup">
+      <!-- <section class="signup-section" id="signup">
         <div class="section-container">
           <h3>
             <img class="img-fluid mx-auto" src="./assets/images/tt-sm.png" alt="The Prank - main titling" />
@@ -266,9 +263,24 @@
             <button type="submit" class="btn btn-primary">Subscribe</button>
           </form>
         </div>
-      </section>
+      </section> -->
 
     </main>
+
+    <!--* FOOTER -->
+    <footer>
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Toggle bottom offcanvas</button>
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small">
+    ...
+  </div>
+</div>
+    </footer>
   </div>
 
 

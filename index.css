@@ -218,6 +218,10 @@ body {
   justify-content: space-evenly;
 }
 
+.card {
+  border: none !important;
+}
+
 .card-body {
   background-color: #07090a;
 }
