@@ -69,6 +69,18 @@ footer {
   width: 100%;
 }
 
+footer .rating-bug {
+  position: absolute;
+  left: 15px;
+  width: 60px;
+}
+
+.footer-links a {
+  display: inline-block;
+  color: rgb(224, 226, 230);
+  margin: 0 5px;
+}
+
 .billing-block {
   max-width: 95%;
   background-color: transparent !important;
@@ -76,6 +88,10 @@ footer {
 
 .rating-bug {
   max-height: 35px;
+}
+
+.credits-btn {
+  cursor: pointer !important;
 }
 
 .nav-link {
