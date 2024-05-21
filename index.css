@@ -6,9 +6,9 @@
 }
 
 .wrapper {
-  width: 100%;
-  position: relative;
-  margin: 0 auto;
+  /* width: 100%; */
+  /* position: relative; */
+  /* margin: 0 auto; */
 }
 
 .page-bg {
@@ -43,9 +43,9 @@ body {
 
 .header {
   display: flex;
+  justify-content: flex-end;
   position: fixed;
-  right: 0;
-  text-align: center;
+  width: 100%;
   z-index: 9;
   background-color: transparent;
 }
@@ -57,6 +57,7 @@ body {
 footer {
   display: flex;
   justify-content: center;
+  align-items: center;
   top: auto;
   bottom: 0;
   background: #000000;
@@ -79,6 +80,9 @@ footer .rating-bug {
   color: rgb(224, 226, 230);
   margin: 0 5px;
 }
+
+
+/** OFFCANVAS **/
 
 .offcanvas {
   background-color: #000 !important;
@@ -208,7 +212,7 @@ footer .rating-bug {
 .titling-section {
   display: flex;
   height: 897px;
-  padding: 10px;
+  padding: 5px;
   /* max-width: 100%; */
   /* display: flex;
   justify-content: center;
@@ -221,15 +225,14 @@ footer .rating-bug {
 .titling-wrapper {
   display: flex;
   justify-content: center;
-  flex-direction: row;
   align-items: flex-end;
-  width: 100vw;
-  height: 100%;
   position: relative;
+  left: 30vw;
   background-color: transparent;
 }
 
 .titling-headliners {
+  width:90%;
   position: absolute;
   top: 6vh;
   max-height: 8vh;
@@ -238,15 +241,13 @@ footer .rating-bug {
 
 .titling-h1 {
   display: flex;
-  justify-content: center;
-  margin: 0;
-  width: 100%;
-  text-align: center;
+  justify-content: center;;
   background-color: transparent;
 }
 
 .title-desktop {
-  max-height: 40vh;
+  width:90%;
+  bottom: -10vh !important;
   background-color: transparent;
 }
 
@@ -263,7 +264,7 @@ footer .rating-bug {
   font-size: 30px;
   position: absolute;
   top: 23vh;
-  left: 40vw;
+  left: 30vw;
   background-color: transparent;
 }
 
