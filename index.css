@@ -262,7 +262,7 @@ footer .rating-bug {
   height: 20px;
   color: rgb(210, 185, 69);
   font-size: 30px;
-  position: fixed;
+  position: absolute;
   top: 23vh;
   left: 50vw;
   background-color: transparent;
@@ -512,7 +512,6 @@ screen and (device-width: 1138px) and (device-height: 712px) and (orientation: l
 
   .titles-quote {
     align-items: flex-end;
-    position: absolute;
     top: 23vh;
     left: 63vw;
     font-size: 18px;
