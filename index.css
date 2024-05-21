@@ -11,6 +11,17 @@
   /* margin: 0 auto; */
 }
 
+.main-container {
+  width: 100%;
+  position: relative;
+
+  margin: 0 auto;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 0 !important;
+}
+
 .page-bg {
   width: 100%;
   position: absolute;
@@ -83,7 +94,6 @@ footer .rating-bug {
 
 
 /** OFFCANVAS **/
-
 .navbar-offcanvas {
   background-color: darkblue;
 }
@@ -139,7 +149,7 @@ footer .rating-bug {
   color: #f8f9fa !important;
 }
 
-/**-- share container --*/
+/*?-- share container --*/
 .share-icon {
   height: 25px;
   margin: 5px;
@@ -205,21 +215,7 @@ footer .rating-bug {
   width: auto;
 }
 
-.main-container {
-  width: 100%;
-  position: relative;
-
-  /* margin: 0 auto; */
-}
-
-.bg-dark {
-  --bs-bg-opacity: 0 !important;
-}
-
 /** HERO SECTION (TITLING) **/
-
-
-
 .titles-section {
   height: 897px;
   padding: 5px;
@@ -244,9 +240,9 @@ footer .rating-bug {
 }
 
 .titles-main-title {
-  /* width:80%; */
-  position: absolute;
-  top: 60vh;
+  width:50%;
+  position: relative;
+  top: 65vh;
 }
 
 .titles-small-title {
@@ -266,9 +262,9 @@ footer .rating-bug {
   height: 20px;
   color: rgb(210, 185, 69);
   font-size: 30px;
-  position: relative;
+  position: fixed;
   top: 23vh;
-  left: 20vw;
+  left: 50vw;
   background-color: transparent;
 }
 
@@ -290,8 +286,9 @@ footer .rating-bug {
   display: inline-block;
 }
 
-/** STREAMING SECTION */
 
+
+/** STREAMING SECTION */
 .streaming-section {
   height: 897px;
   display: flex;
@@ -319,6 +316,8 @@ footer .rating-bug {
   background: black;
   border: 1px solid rgb(233, 184, 61);
 }
+
+
 
 /** SYNOPSIS SECTION **/
 .synopsis-section {
@@ -369,31 +368,6 @@ footer .rating-bug {
 
 
 
-/* .synopsis-section {
-  display: flex;
-  flex-direction: column;
-}
-
-.synopsis-section * {
-  background-color: transparent;
-}
-
-.synopsis-headline {
-  text-align: center;
-}
-
-.synopsis-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 200px;
-}
-
-.synopsis-text {
-  padding: 15px 20px 5px 40px;
-} */
-
-
 
 /** SIGNUP SECTION **/
 .signup-section {
@@ -410,8 +384,9 @@ footer .rating-bug {
 }
 
 
-/** TRAILER SECTION **/
 
+
+/** TRAILER SECTION **/
 .trailer-h2 {
   text-align: center;
 }
@@ -537,10 +512,10 @@ screen and (device-width: 1138px) and (device-height: 712px) and (orientation: l
 
   .titles-quote {
     align-items: flex-end;
-    justify-content: right;
+    position: absolute;
+    top: 23vh;
+    left: 63vw;
     font-size: 18px;
-    top: 30vh;
-    left: 30vw;
     text-align: right;
   }
 
