@@ -295,7 +295,6 @@ footer .rating-bug {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  /* align-items: center; */
   background-color: rgb(16, 16, 18);
 }
 
