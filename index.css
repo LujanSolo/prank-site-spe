@@ -321,32 +321,50 @@ footer .rating-bug {
 
 /** SYNOPSIS SECTION **/
 .synopsis-section {
-  height: 897px;
+  padding-bottom: 5%;
+  position: relative;
+  z-index: 8;
+  margin: 0 auto;
+  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .synopsis-h2 {
   text-align: center;
+  font-weight: 900 !important;
+  color: #d5d5d5;
+  margin-bottom: 1em;
 }
 
 .synopsis-wrapper {
   display: flex;
+  width: 100%;
+  color: #f1e6de;
+}
+
+.synopsis-left {
+  width: 40%;
+  display: flex;
 }
 
 .poster-container {
+  width: 100%;
   display: inline-block;
-  width: 40%;
+  text-align: center;
 }
 
 .synopsis-text {
   width: 60%;
-  padding: 0 40px;
+  padding: 0 2em;
 }
 
 .synopsis-text p {
-  padding-bottom: 20px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .left-column {
@@ -365,25 +383,6 @@ footer .rating-bug {
 .right-column a {
   color: #fff;
 }
-
-
-
-
-/** SIGNUP SECTION **/
-.signup-section {
-  /* height: 897px; */
-  display: flex;
-  justify-content: center;
-  background-color: rgb(16, 16, 18);
-  padding: 20px 0;
-}
-
-.signup-title {
-  background: transparent !important;
-  max-width: 20px;
-}
-
-
 
 
 /** TRAILER SECTION **/
@@ -476,6 +475,21 @@ footer .rating-bug {
 }
 
 /** RESPONSIVE **/
+
+@media screen and (max-width: 1366px) {
+  .synopsis-section {
+      max-width: 57vw;
+  }
+
+  .synopsis-h2 {
+      font-size: 26px;
+  }
+
+  .synopsis-wrapper {
+    font-size: 14px;
+  }
+}
+
 @media screen and (max-width: 1024px),
 screen and (device-width: 1334px) and (device-height: 800px) and (orientation: landscape),
 screen and (device-width: 1194px) and (device-height: 834px) and (orientation: landscape),
