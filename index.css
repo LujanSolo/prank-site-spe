@@ -228,7 +228,7 @@ footer .rating-bug {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  position: relative;
+  /* position: relative; */
   /* left: 30vw; */
   background-color: transparent;
 }
@@ -247,6 +247,12 @@ footer .rating-bug {
   top: 60vh;
 }
 
+.titles-small-title {
+  display: none;
+  position: absolute;
+  top: 60vh;
+}
+
 .titles-quote {
   display: flex;
   flex-direction: column;
@@ -258,9 +264,9 @@ footer .rating-bug {
   height: 20px;
   color: rgb(210, 185, 69);
   font-size: 30px;
-  position: absolute;
+  position: relative;
   top: 23vh;
-  left: 50vw;
+  left: 20vw;
   background-color: transparent;
 }
 
@@ -521,6 +527,12 @@ screen and (device-width: 1138px) and (device-height: 712px) and (orientation: l
 
   .titles-small-title {
     display: block;
+    margin-top: 100px;
+    width: 76%;
+  }
+
+  .titles-quote {
+    
   }
 }
 
