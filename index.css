@@ -317,12 +317,17 @@ footer .rating-bug {
   justify-content: space-evenly;
 }
 
-.card {
-  border: none !important;
-}
 
 .card-body {
-  background-color: #07090a;
+  /* background-color: #2e93c5; */
+  padding: 40px !important;
+}
+
+.card-body a {
+  font-size: 14px;
+  font-family: 'Roboto condensed', sans-serif;
+  background: black;
+  border: 1px solid rgb(233, 184, 61);
 }
 
 /** SYNOPSIS SECTION **/
