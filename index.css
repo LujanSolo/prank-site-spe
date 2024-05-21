@@ -84,21 +84,24 @@ footer .rating-bug {
 
 /** OFFCANVAS **/
 
-.offcanvas {
-  background-color: #000 !important;
+.navbar-offcanvas {
+  background-color: darkblue;
 }
-.offcanvas * {
-  background-color: #000 !important;
+.btn-close {
+  background-color: rgb(249, 242, 242) !important;
+}
+
+#offcanvasBottom * {
+  background-color: #000000;
+
 }
 
 .copyright {
   color: rgb(224, 226, 230);
-
 }
 
-.btn-close {
-  color: #fff !important;
-  background-color: white !important;
+.credits-container {
+  text-align: center;
 }
 
 .billing-block {
@@ -128,15 +131,7 @@ footer .rating-bug {
   border-left: 0.4em solid transparent;
 }
 
-.credits-container {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding: 30px 0 5px;
-  background: #000 !important;
-  text-align: center;
-}
+
 
 
 /** NAVIGATION **/
