@@ -218,6 +218,8 @@ footer .rating-bug {
 
 /** HERO SECTION (TITLING) **/
 
+
+
 .titles-section {
   height: 897px;
   padding: 5px;
@@ -494,6 +496,9 @@ footer .rating-bug {
   @include clearfix;
 }
 
+.hidden {
+  display: none;
+}
 
 /** RESPONSIVE **/
 @media screen and (max-width: 1024px),
@@ -521,17 +526,26 @@ screen and (device-width: 1138px) and (device-height: 712px) and (orientation: l
     background-position: center -1vh;
     height: 812px;
   }
+
   .titles-main-title {
     display: none;
   }
 
   .titles-small-title {
     display: block;
-    margin-top: 100px;
-    width: 76%;
   }
 
   .titles-quote {
+    align-items: flex-end;
+    justify-content: right;
+    font-size: 18px;
+    top: 30vh;
+    left: 30vw;
+    text-align: right;
+  }
+
+  .titles-quote span {
+    font-size: 14px;
     
   }
 }
