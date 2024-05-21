@@ -79,14 +79,17 @@ footer .rating-bug {
   color: rgb(224, 226, 230);
   margin: 0 5px;
 }
+
+.offcanvas {
+  background-color: #000 !important;
+}
 .offcanvas * {
   background-color: #000 !important;
 }
 
-.offcanvas-bottom {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-  height: 24% !important;
+.copyright {
+  color: rgb(224, 226, 230);
+
 }
 
 .btn-close {
