@@ -112,6 +112,20 @@ footer .rating-bug {
 
 .credits-btn {
   cursor: pointer !important;
+  color: #f3f8fa !important;
+  font-size: 9px !important;
+  cursor: pointer !important;
+}
+
+.credits-btn::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.075em;
+  content: "";
+  border-top: 0;
+  border-right: 0.4em solid transparent;
+  border-bottom: 0.6em solid;
+  border-left: 0.4em solid transparent;
 }
 
 .credits-container {
