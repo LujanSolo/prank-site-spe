@@ -203,7 +203,7 @@ footer .rating-bug {
   --bs-bg-opacity: 0 !important;
 }
 
-
+/** HERO SECTION (TITLING) **/
 
 .titling-section {
   display: flex;
@@ -219,7 +219,7 @@ footer .rating-bug {
 
 .titling-wrapper {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   flex-direction: row;
   /* justify-content: flex-start; */
   align-items: flex-end;
@@ -227,6 +227,7 @@ footer .rating-bug {
   height: 100%;
   position: relative;
   background-color: transparent;
+  right: -5%;
 }
 
 .titling-headliners {
@@ -239,7 +240,7 @@ footer .rating-bug {
 
 .titling-h1 {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   margin: 0;
   width: 100%;
   text-align: center;
@@ -255,13 +256,19 @@ footer .rating-bug {
 
 
 .titling-quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "IM Fell DW Pica", serif;
+  font-weight: 400;
+  font-style: normal; 
+  width: 20vw;
   color: rgb(210, 185, 69);
-  font-size: 24px;
+  font-size: 30px;
   padding: 10px;
-  margin-right: 20px;
   position: absolute;
-  top: 30vh;
-  left: 60vw;
+  top: 23vh;
+  left: 50vw;
   background-color: transparent;
 }
 
