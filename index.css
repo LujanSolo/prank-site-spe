@@ -208,6 +208,7 @@ footer .rating-bug {
 .titling-section {
   display: flex;
   height: 897px;
+  padding: 10px;
   /* max-width: 100%; */
   /* display: flex;
   justify-content: center;
@@ -221,20 +222,17 @@ footer .rating-bug {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  /* justify-content: flex-start; */
   align-items: flex-end;
   width: 100vw;
   height: 100%;
   position: relative;
   background-color: transparent;
-  right: -5%;
 }
 
 .titling-headliners {
   position: absolute;
   top: 6vh;
   max-height: 8vh;
-
   background-color: transparent;
 }
 
@@ -244,7 +242,6 @@ footer .rating-bug {
   margin: 0;
   width: 100%;
   text-align: center;
-
   background-color: transparent;
 }
 
@@ -253,22 +250,20 @@ footer .rating-bug {
   background-color: transparent;
 }
 
-
-
 .titling-quote {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 30%;
   font-family: "IM Fell DW Pica", serif;
   font-weight: 400;
-  font-style: normal; 
-  width: 20vw;
+  font-style: normal;
+  height: 20px;
   color: rgb(210, 185, 69);
   font-size: 30px;
-  padding: 10px;
   position: absolute;
   top: 23vh;
-  left: 50vw;
+  left: 40vw;
   background-color: transparent;
 }
 
