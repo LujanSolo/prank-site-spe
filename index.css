@@ -303,17 +303,22 @@ footer .rating-bug {
   justify-content: space-evenly;
 }
 
+.card {
 
-.card-body {
-  /* background-color: #2e93c5; */
-  padding: 40px !important;
+  border: 2px solid rgb(95, 88, 83) !important;
 }
 
-.card-body a {
+.card-body {
+  background-image: linear-gradient(rgb(90, 100, 130), rgb(34, 39, 49));  
+  padding: 15px !important;
+}
+
+.card-body a, 
+.card-body button {
   font-size: 14px;
   font-family: 'Roboto condensed', sans-serif;
   background: black;
-  border: 1px solid rgb(233, 184, 61);
+  border: 2px solid rgb(17, 152, 225);
 }
 
 #links * {
