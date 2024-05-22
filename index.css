@@ -100,6 +100,10 @@ footer .rating-bug {
 
 
 /** OFFCANVAS **/
+nav {
+  padding-right: 50px !important;
+  margin-bottom: 20px !important;
+}
 .navbar-offcanvas {
   background-color: darkblue;
 }
@@ -158,29 +162,53 @@ footer .rating-bug {
 
 .navbar {
   display: flex !important;
-
 }
+
+.navbar-toggler:focus {
+
+  box-shadow: none !important;
+}
+
 .nav-link {
   color: #f8f9fa !important;
 }
 
 /*?-- share container --*/
+
+
+
+.share-dropdown {
+  background: black !important;
+  padding-right: 50px;
+}
+
+.share-dropdown :hover {
+  background: black !important;
+
+}
 .share-icon {
-  height: 25px;
+  background-color: black !important;
+  height: 20px;
   margin: 5px;
   cursor: pointer;
 }
 
-.share-container {
-}
-
-.share-icons-container {
-
+.social-share-icons {
+  padding: 3px;
+  width: 3rem;
 }
 
 .navbar-toggler {
   border: none !important;
   cursor: pointer;
+  padding-right: 100px !important;
+}
+
+.navbar-toggler:focus {
+  /* background-color: transparent !important; */
+  border: none !important;
+  text-decoration: none !important;
+
 }
 
 .offcanvas * {
