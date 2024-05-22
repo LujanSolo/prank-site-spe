@@ -80,6 +80,12 @@ footer {
   width: 100%;
 }
 
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 footer .rating-bug {
   position: absolute;
   left: 15px;
@@ -120,7 +126,7 @@ footer .rating-bug {
 
 .billing-block {
   max-width: 95%;
-  background-color: transparent !important;
+  background-color: #000000 !important;
 }
 
 .rating-bug {
