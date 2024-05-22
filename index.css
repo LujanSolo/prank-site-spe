@@ -227,7 +227,7 @@ footer .rating-bug {
 
 /** HERO SECTION (TITLING) **/
 .titles-section {
-  height: 897px;
+  height: 912px;
   padding: 5px;
 }
 
@@ -236,13 +236,11 @@ footer .rating-bug {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  /* position: relative; */
-  /* left: 30vw; */
-  background-color: transparent;
+  position: relative;
 }
 
 .titles-headliners {
-  /* width:80%; */
+  width:90%;
   position: absolute;
   top: 6vh;
   max-height: 8vh;
@@ -253,6 +251,7 @@ footer .rating-bug {
   width:50%;
   position: relative;
   top: 55vh;
+  left: 20vw;
 }
 
 .titles-small-title {
@@ -300,7 +299,7 @@ footer .rating-bug {
 
 /** STREAMING SECTION */
 .streaming-section {
-  height: 897px;
+  height: 912px;
   display: flex;
   flex-direction: column;
   justify-content: center;
