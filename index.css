@@ -28,8 +28,8 @@
   background-color: black;
   background-image: url(./assets/images/bg.jpg);
   background-size: cover;
-  background-position: left 25%;
-  height: 897px;
+  /* background-position: left 25%; */
+  height: 912px;
   background-repeat: no-repeat;
   z-index: -1;
   top: 0;
@@ -45,7 +45,7 @@ body {
   font-weight: 400 !important;
   color: #d5d5d5 !important;
   letter-spacing: 1px !important;
-  background-color: #07090a !important;
+  background-color: #000101 !important;
   font-size: 14px;
   background-color: rgb(3, 3, 5);
 }
@@ -233,52 +233,59 @@ footer .rating-bug {
 
 .titles-wrapper {
   max-width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
   position: relative;
+  left: 12%;
 }
 
 .titles-headliners {
-  width:90%;
-  position: absolute;
-  top: 6vh;
+  width:60%;
+  /* position: absolute; */
+  /* top: 6vh; */
   max-height: 8vh;
   background-color: transparent;
 }
 
 .titles-main-title {
-  width:50%;
-  position: relative;
-  top: 55vh;
-  left: 20vw;
+  width:60%;
+  /* position: relative; */
+  /* top: 55vh; */
+  /* left: 20vw; */
 }
 
 .titles-small-title {
   display: none;
+  /* position: absolute; */
+  /* top: 60vh; */
+}
+
+#title-qt {
   position: absolute;
-  top: 60vh;
+  top: 23vh;
+  left: 43vw;
 }
 
 .titles-quote {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 30%;
+  width: 35%;
+  text-align: center;
+  /* width: 40%; */
   font-family: "IM Fell DW Pica", serif;
   font-weight: 400;
   font-style: normal;
-  height: 20px;
   color: rgb(210, 185, 69);
-  font-size: 30px;
-  position: absolute;
-  top: 23vh;
-  left: 50vw;
-  background-color: transparent;
+  font-size: 44px;
 }
 
 .titles-quote span {
   background-color: transparent;
+  text-align: right;
 }
 
 .titles-mobile {
@@ -465,7 +472,7 @@ footer .rating-bug {
 /** TYPOGRAPHY **/
 
 .sm-text {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .italic {
