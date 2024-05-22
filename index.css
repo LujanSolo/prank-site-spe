@@ -155,6 +155,11 @@ footer .rating-bug {
 
 
 /** NAVIGATION **/
+
+.navbar {
+  display: flex !important;
+
+}
 .nav-link {
   color: #f8f9fa !important;
 }
@@ -167,7 +172,10 @@ footer .rating-bug {
 }
 
 .share-container {
-  margin-top: 1rem;
+}
+
+.share-icons-container {
+
 }
 
 .navbar-toggler {
@@ -245,17 +253,12 @@ footer .rating-bug {
 
 .titles-headliners {
   width:60%;
-  /* position: absolute; */
-  /* top: 6vh; */
   max-height: 8vh;
   background-color: transparent;
 }
 
 .titles-main-title {
   width:60%;
-  /* position: relative; */
-  /* top: 55vh; */
-  /* left: 20vw; */
 }
 
 .titles-small-title {
