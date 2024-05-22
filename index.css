@@ -277,15 +277,14 @@ nav {
 }
 
 .titles-wrapper {
-  max-width: 100%;
+  max-width: 88%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   padding: 40px;
   position: relative;
-  left: 12%;
 }
 
 .titles-headliners {
@@ -304,17 +303,17 @@ nav {
   /* top: 60vh; */
 }
 
-#title-qt {
+/* #title-qt {
   position: absolute;
   top: 23vh;
-  left: 43vw;
-}
+  left: 33vw;
+} */
 
 .titles-quote {
   display: flex;
   flex-direction: column;
-  width: 35%;
-  text-align: center;
+  width: 40%;
+  text-align: left;
   /* width: 40%; */
   font-family: "IM Fell DW Pica", serif;
   font-weight: 400;
