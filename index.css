@@ -97,13 +97,17 @@ footer .rating-bug {
 .navbar-offcanvas {
   background-color: darkblue;
 }
+
+.offcanvas-body {
+  text-align: center;
+}
+
 .btn-close {
   background-color: rgb(249, 242, 242) !important;
 }
 
 #offcanvasBottom * {
   background-color: #000000;
-
 }
 
 .copyright {
