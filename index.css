@@ -179,11 +179,19 @@ nav {
 
 .share-dropdown {
   background: black !important;
-  padding-right: 50px;
+  /* padding-right: 50px; */
 }
 
 .share-dropdown :hover {
-  background: black !important;
+
+}
+
+.share-dropdown .show {
+  min-width: 7rem !important;
+  display: flex !important;
+  justify-content: space-evenly;
+  align-items: center;
+  /* padding: 5px !important; */
 
 }
 .share-icon {
@@ -194,8 +202,9 @@ nav {
 }
 
 .social-share-icons {
-  padding: 3px;
-  width: 3rem;
+  margin: 0 !important;
+  padding: 2px;
+  width: 2rem;
 }
 
 .navbar-toggler {
