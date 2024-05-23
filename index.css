@@ -344,14 +344,21 @@ nav {
   height: 100vh; 
 }
 
-.streaming-bg-container {
-  /* width: 60%; */
+.streaming-h2 {
+  text-align: center;
+  width: 50%;
 }
 
-.stream-links-wrapper {
+.streaming-links-wrapper {
   width: 30%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.streaming-icons-box {
+  text-align: center
 }
 
 
