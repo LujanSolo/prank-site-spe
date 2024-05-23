@@ -5,17 +5,10 @@
   line-height: 1.5;
 }
 
-.wrapper {
-  /* width: 100%; */
-  /* position: relative; */
-  /* margin: 0 auto; */
-}
+
 
 .main-container {
-  width: 100%;
-  position: relative;
-
-  margin: 0 auto;
+  padding-top: 30px;
 }
 
 .bg-dark {
@@ -28,12 +21,9 @@
   background-color: black;
   background-image: url(./assets/images/bg.jpg);
   background-size: cover;
-  /* background-position: left 25%; */
-  height: 912px;
+  height: 100vh;
   background-repeat: no-repeat;
   z-index: -1;
-  top: 0;
-  height: 921px;
 }
 
 h1 {
@@ -58,11 +48,6 @@ body {
   position: fixed;
   width: 100%;
   z-index: 9;
-  /* background-color: transparent; */
-}
-
-.header * {
-  /* background-color: transparent; */
 }
 
 footer {
@@ -266,7 +251,7 @@ nav {
 
 /** HERO SECTION (TITLING) **/
 .titles-section {
-  height: 912px;
+  height: 95vh;
 }
 
 .titles-wrapper {
@@ -292,15 +277,7 @@ nav {
 
 .titles-small-title {
   display: none;
-  /* position: absolute; */
-  /* top: 60vh; */
 }
-
-/* #title-qt {
-  position: absolute;
-  top: 23vh;
-  left: 33vw;
-} */
 
 .titles-quote {
   font-family: "roboto condensed", sans-serif;
@@ -322,13 +299,13 @@ nav {
 }
 
 .titles-quote span {
-  background-color: transparent;
+  font-family: "roboto condensed", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
 }
 
 .titles-mobile {
   display: none;
-
-  background-color: transparent;
 }
 
 .social-icons-container {
@@ -499,10 +476,6 @@ nav {
   font-size: 20px;
 }
 
-.italic {
-  font-style: italic;
-}
-
 .card-title,
 .card-text {
   color: #d5d5d5 !important;
@@ -528,12 +501,9 @@ nav {
 }
 
 /** RESPONSIVE **/
-
-@media screen and (max-width: 360px) {
+/** titles section **/
+@media screen and (max-width: 380px) {
   .titles-section {
-    height: 100vh;
-    padding-top: 2rem;
-    /* width: 50%; */
   }
 
   .titles-wrapper {
@@ -542,6 +512,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
   }
 
   .titles-headliners {
@@ -550,10 +521,19 @@ nav {
   }
 
   .titles-quote {
+    font-weight: 500;
     width: 100%;
-    text-align: center;
+    text-align: left !important;
     font-size: 12px;
     color: white;
+    position: static;
+    font-size: 14px !important;
+    margin-top: 30rem;
+  }
+
+  .titles-quote span {
+    font-size: 10px !important;
+    text-align: left !important;
   }
 }
 
