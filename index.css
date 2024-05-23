@@ -45,7 +45,7 @@ body {
   font-weight: 400 !important;
   color: #d5d5d5 !important;
   letter-spacing: 1px !important;
-  background-color: #000101 !important;
+  background-color: #000 !important;
   font-size: 14px;
   background-color: rgb(3, 3, 5);
 }
@@ -273,7 +273,6 @@ nav {
 /** HERO SECTION (TITLING) **/
 .titles-section {
   height: 912px;
-  padding: 5px;
 }
 
 .titles-wrapper {
@@ -388,7 +387,13 @@ nav {
 
 
 /** SYNOPSIS SECTION **/
+
 .synopsis-section {
+  padding: 50px 0px !important;
+  height: 912px !important;
+  /* margin-bottom: 70px !important; */
+}
+/* .synopsis-section {
   padding-bottom: 5%;
   position: relative;
   z-index: 8;
@@ -398,7 +403,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
+} */
 
 .synopsis-h2 {
   text-align: center;
@@ -415,13 +420,10 @@ nav {
 
 .synopsis-left {
   width: 40%;
-  display: flex;
 }
 
 .poster-container {
-  width: 100%;
-  display: inline-block;
-  text-align: center;
+  border: 1px solid #405157;
 }
 
 .synopsis-text {
