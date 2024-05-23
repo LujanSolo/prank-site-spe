@@ -344,6 +344,16 @@ nav {
   height: 100vh; 
 }
 
+.streaming-bg-container {
+  /* width: 60%; */
+}
+
+.stream-links-wrapper {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
 
 /** SYNOPSIS SECTION **/
 .synopsis-section {
