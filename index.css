@@ -42,7 +42,7 @@ a {
   background-size: cover;
   height: 100vh;
   background-repeat: no-repeat;
-  z-index: -1;
+  z-index: -1000;
   left: -20%;
 }
 
@@ -250,7 +250,7 @@ nav {
 }
 
 .titles-wrapper {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -623,22 +623,19 @@ nav {
 
   /** titles **/
   .titles-section {
-    margin: 0 !important;
-    top: -33%;
+    margin: 40px 0 0 0 !important;
     position: relative;
   }
 
   .titles-wrapper {
-    margin-top: 100px;
-    justify-content: center;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 10px
   }
 
   .titles-headliners {
     width: 100%;
-    padding: 0;
-    position: relative;
-    top: -7rem;
-
   }
 
   .titles-quote {
