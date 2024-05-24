@@ -635,6 +635,10 @@ screen and (device-width: 1138px) and (device-height: 712px) and (orientation: l
   gap: 50px;
 }
 
+.quick-buttons a {
+  text-decoration: none;
+}
+
 .rainbow-button {
   --primary-neon: rgba(248, 248, 248, 0.787);
   --light-neon: rgba(111, 151, 188, 0.7);
