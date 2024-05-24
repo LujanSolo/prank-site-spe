@@ -304,29 +304,28 @@ nav {
 
 /** STREAMING SECTION */
 #streaming {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
+  align-content: center;
 }
 
 .streaming-wrapper {
-  width: 100vw;
-  height: auto;
+  top: -80px;
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
   grid-template-areas:
     "bg title"
     "bg iconBox";
-  align-items: center;
+  /* align-items: center; */
+  
 }
 
 .stream-bg {
   grid-area: bg;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+  /* height: 100%; */
+  /* width: 100%; */
+  /* object-fit: cover; */
 }
 
 .streaming-h2 {
