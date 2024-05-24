@@ -43,6 +43,7 @@ a {
   height: 100vh;
   background-repeat: no-repeat;
   z-index: -1;
+  left: -20%;
 }
 
 h1 {
