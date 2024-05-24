@@ -615,7 +615,6 @@ nav {
 
 /** RESPONSIVE **/
 @media screen and (max-width: 576px) {
-
   .page-bg {
     left: 0;
   }
