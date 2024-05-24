@@ -49,9 +49,10 @@ a {
 /** HEADER/FOOTER **/
 .header {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   position: fixed;
   width: 100vw;
+  top: 0;
   z-index: 9;
 }
 
@@ -241,6 +242,7 @@ nav {
   width: auto;
 }
 
+
 /** TITLES **/
 .titles-section {
   margin-left: 200px !important;
@@ -248,7 +250,7 @@ nav {
 }
 
 .titles-wrapper {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -256,8 +258,7 @@ nav {
 }
 
 .titles-headliners {
-  padding-top: 30px;
-  width: 66%;
+  width: 80%;
   max-height: 10vh;
 }
 
@@ -279,7 +280,7 @@ nav {
   font-weight: 700;
   color: rgb(210, 185, 69);
   font-size: 24px;
-  padding-left: 45px;
+  padding-left: 105px;
 }
 
 .titles-quote span {
@@ -614,18 +615,19 @@ nav {
 
 
 /** RESPONSIVE **/
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 576px) {
 
   .page-bg {
     left: 0;
   }
 
-  /** titles section **/
+  /** titles **/
   .titles-section {
     margin: 0 !important;
-    top: -100px;
+    top: -33%;
     position: relative;
   }
+
   .titles-wrapper {
     margin-top: 100px;
     justify-content: center;
