@@ -319,28 +319,45 @@ nav {
 
 
 /** STREAMING SECTION */
-.streaming-section {
+#streaming {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-.streaming-h2 {
-  text-align: center;
-  width: 50%;
-}
-
-.streaming-links-wrapper {
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.streaming-wrapper {
+  width: 100vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: 
+    "bg title" 
+    "bg iconBox";
   align-items: center;
 }
 
+.stream-bg {
+  grid-area: bg;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.streaming-h2 {
+  grid-area: title;
+  justify-self: center;
+  text-align: center;
+}
+
 .streaming-icons-box {
-  text-align: center
+  grid-area: iconBox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
 
@@ -501,11 +518,8 @@ nav {
 }
 
 /** RESPONSIVE **/
-/** titles section **/
 @media screen and (max-width: 380px) {
-  .titles-section {
-  }
-
+  /** titles section **/
   .titles-wrapper {
     max-width: 100%;
     padding: 20px;
@@ -514,12 +528,10 @@ nav {
     justify-content: space-between;
     align-items: center;
   }
-
   .titles-headliners {
     width: 100%;
     max-height: 8vh;
   }
-
   .titles-quote {
     font-weight: 500;
     width: 100%;
@@ -530,10 +542,25 @@ nav {
     font-size: 14px !important;
     margin-top: 30rem;
   }
-
   .titles-quote span {
     font-size: 10px !important;
     text-align: left !important;
+  }
+  /** streaming section **/
+  .streaming-section {
+    flex-direction: column;
+  }
+
+  .streaming-links-wrapper {
+    width: 100%;
+  }
+  .streaming-icon {
+    width: 35%;
+  }
+
+  .streaming-icons-box {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
