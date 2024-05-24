@@ -98,24 +98,12 @@ footer .rating-bug {
   color: #f8f9fa !important;
 }
 
-/*?-- share container --*/
-
-
-
-.share-dropdown {
-  /*! tagged for removal */
-}
-
-.share-dropdown :hover {
-  /*! tagged for removal */
-}
-
+/**-- share container --*/
 .share-dropdown .show {
   min-width: 7rem !important;
   display: flex !important;
   justify-content: space-evenly;
   align-items: center;
-
 }
 
 .share-icon {
@@ -362,23 +350,14 @@ nav {
 
 
 /** SYNOPSIS SECTION **/
-.synopsis-section {
-  padding: 50px !important;
-  height: 912px !important;
-  /* margin-bottom: 70px !important; */
-}
 
-/* .synopsis-section {
+.synopsis-section {
   padding-bottom: 5%;
-  position: relative;
-  z-index: 8;
-  margin: 0 auto;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-} */
+}
 
 .synopsis-h2 {
   text-align: center;
