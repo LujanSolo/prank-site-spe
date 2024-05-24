@@ -259,7 +259,6 @@ nav {
 
 .titles-headliners {
   width: 80%;
-  max-height: 10vh;
 }
 
 .titles-main-title {
@@ -623,36 +622,44 @@ nav {
 
   /** titles **/
   .titles-section {
-    margin: 40px 0 0 0 !important;
-    position: relative;
+    margin: 0 !important;
+    padding-top: 2rem;
   }
 
   .titles-wrapper {
     height: 100vh;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 20px 10px
+    justify-content: center;
+    
   }
 
   .titles-headliners {
     width: 100%;
+    padding: 0 .5rem 5rem .5rem; 
   }
 
   .titles-quote {
     font-weight: 500;
-    width: 100%;
+    width: 80%;
     text-align: left !important;
     font-size: 14px !important;
     margin-top: 22rem;
+    padding-left: 0;
   }
 
   .titles-quote span {
-    font-size: 12px !important;
+    font-size: 10px !important;
     /* text-align: left !important; */
   }
 
   .quick-buttons {
     padding-top: 3rem;
+  }
+
+  .rainbow-button {
+    width: calc(20vw + 6px);
+    height: calc(7vw + 6px);
+    font-weight: 500;
+    padding-top: 3px;
   }
 
   /** streaming section **/
