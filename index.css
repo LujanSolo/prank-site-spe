@@ -5,7 +5,10 @@
   line-height: 1.5;
 }
 
-
+a {
+  text-decoration:none !important;
+  color:#FFF !important;
+}
 
 .main-container {
   padding: 30px 0;
@@ -239,7 +242,9 @@ nav {
 
 /** HERO SECTION (TITLING) **/
 .titles-section {
-  height: 95vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .titles-wrapper {
@@ -275,15 +280,9 @@ nav {
   text-align: left;
   text-transform: uppercase;
   font-weight: 700;
-  /* width: 40%; */
-  /* font-family: "IM Fell DW Pica", serif;
-  font-weight: 400;
-  font-style: normal;
-  color: rgb(210, 185, 69); */
+  color: rgb(210, 185, 69);
   font-size: 30px;
-  left: 50vw;
-  top: 30vh;
-  position: absolute;
+  padding-left: 45px;
 }
 
 .titles-quote span {
@@ -320,8 +319,8 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
-  grid-template-areas: 
-    "bg title" 
+  grid-template-areas:
+    "bg title"
     "bg iconBox";
   align-items: center;
 }
@@ -498,6 +497,7 @@ nav {
 
 /** RESPONSIVE **/
 @media screen and (max-width: 380px) {
+
   /** titles section **/
   .titles-wrapper {
     max-width: 100%;
@@ -507,10 +507,12 @@ nav {
     justify-content: space-between;
     align-items: center;
   }
+
   .titles-headliners {
     width: 100%;
     max-height: 8vh;
   }
+
   .titles-quote {
     font-weight: 500;
     width: 100%;
@@ -521,10 +523,12 @@ nav {
     font-size: 14px !important;
     margin-top: 30rem;
   }
+
   .titles-quote span {
     font-size: 10px !important;
     text-align: left !important;
   }
+
   /** streaming section **/
   .streaming-section {
     flex-direction: column;
@@ -533,6 +537,7 @@ nav {
   .streaming-links-wrapper {
     width: 100%;
   }
+
   .streaming-icon {
     width: 35%;
   }
@@ -611,5 +616,108 @@ screen and (device-width: 1138px) and (device-height: 712px) and (orientation: l
 @media screen and (max-width: 560px) {
   .page-bg {
     background-size: auto 80vh;
+  }
+}
+
+
+/** homepage special buttons **/
+
+.quick-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.rainbow-button {
+  --primary-neon:rgba(123, 165, 194, 0.787);
+  --light-neon:rgba(241, 236, 241, 0.7);
+  --pulse-neon:rgba(142, 142, 142, 0.5);
+  --bright-neon:rgb(122, 222, 255);
+  --off-neon:#ffffff;
+  
+  --neon-shadow:0 0 7px 4px var(--light-neon), 0 0 7px 4px var(--light-neon) inset;
+  --neon-shadow-pulse:0 0 8px 5px var(--pulse-neon), 0 0 8px 5px var(--pulse-neon) inset;
+  --neon-shadow-bright:0 0 8px 4px var(--bright-neon), 0 0 8px 4px var(--bright-neon) inset;
+  --neon-shadow-text:0 0 7px var(--primary-neon);
+  
+  width:calc(20vw + 6px);
+  height:calc(8vw + 6px);
+  color:var(--primary-neon);
+  text-shadow:var(--neon-shadow-text);
+  border:3px solid var(--primary-neon);
+  border-radius:5px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-transform:uppercase;
+  font-size: 1rem;
+  font-weight:bold;
+  box-shadow:var(--neon-shadow);
+  animation:flicker 10s linear infinite;
+}
+
+@keyframes flicker {
+  0% {
+    box-shadow:var(--neon-shadow);
+  }
+  45% {
+    box-shadow:var(--neon-shadow-pulse);
+  }
+  90% {
+    box-shadow:var(--neon-shadow);
+    border-color:var(--primary-neon);
+    color:var(--primary-neon);
+    text-shadow:var(--neon-shadow-text);
+  }
+  90.01% {
+    box-shadow:none;
+    border-color:var(--off-neon);
+    color:var(--off-neon);
+    text-shadow:none;
+  }
+  94% {
+    box-shadow:none;
+    border-color:var(--off-neon);
+  }
+  94.01% {
+    box-shadow:var(--neon-shadow);
+    border-color:var(--primary-neon);
+  }
+  95% {
+    box-shadow:var(--neon-shadow);
+    border-color:var(--primary-neon);
+  }
+  95.01% {
+    box-shadow:none;
+    border-color:var(--off-neon);
+  }
+  95.5% {
+    box-shadow:none;
+    border-color:var(--off-neon);
+  }
+  95.51% {
+    box-shadow:var(--neon-shadow);
+    border-color:var(--primary-neon);
+  }
+  96% {
+    box-shadow:var(--neon-shadow);
+    border-color:var(--primary-neon);
+  }
+  96.01% {
+    box-shadow:none;
+    border-color:var(--off-neon);
+  }
+  96.5% {
+    box-shadow:none;
+    border-color:var(--off-neon);
+  }
+  96.51% {
+    box-shadow:var(--neon-shadow-bright);
+    border-color:var(--primary-neon);
+  }
+  100% {
+    box-shadow:var(--neon-shadow);
+    border-color:var(--primary-neon);
   }
 }
