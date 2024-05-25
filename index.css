@@ -330,7 +330,7 @@ nav {
   color: var(--primary-neon);
   text-shadow: var(--neon-shadow-text);
   border: 1px solid var(--primary-neon);
-  border-radius: 50px;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -467,7 +467,7 @@ nav {
 }
 
 .synopsis-poster {
-  border: 1px solid white !important;
+  /* border: 1px solid white !important; */
 }
 
 /* .left-column {
