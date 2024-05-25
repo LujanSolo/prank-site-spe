@@ -15,9 +15,9 @@ body {
   background-color: rgb(3, 3, 5);
 }
 
-/* a {
+a {
   color: #FFF !important;
-} */
+}
 
 
 
@@ -321,7 +321,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
 }
 
 .quick-buttons a {
@@ -438,8 +438,7 @@ nav {
 
 
 /** STREAMING SECTION */
-.streaming-section {
-  /* width: 100vw; */
+/* .streaming-section {
   height: 100vh;
   display: flex;
 }
@@ -470,10 +469,7 @@ nav {
 
 .streaming-icon {
   flex: 1 1 50%;
-  /* box-sizing: border-box !important; */
-  /* padding: 10px; */
-  /* text-align: center !important; */
-}
+} */
 
 
 /** SYNOPSIS SECTION **/
@@ -482,7 +478,7 @@ nav {
 }
 
 .synopsis-poster {
-  /* border: 1px solid white !important; */
+  border: 1px solid white !important;
 }
 
 /* .left-column {
