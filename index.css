@@ -462,8 +462,28 @@ nav {
 
 
 /** SYNOPSIS SECTION **/
+.synopsis-h2 {
+  font-weight: 900;
+}
 
-.synopsis-section {
+.synopsis-poster {
+  border: 1px solid white !important;
+}
+
+/* .left-column {
+  float: left;
+  width: 30%;
+}
+
+.right-column {
+  color: #d5d5d5;
+  float: right;
+  width: 70%;
+  text-transform: none;
+  text-align: right;
+} */
+
+/* .synopsis-section {
   padding-bottom: 5%;
   display: flex;
   justify-content: center;
@@ -504,7 +524,6 @@ nav {
 }
 
 .left-column {
-  /* color: #2a9bcb; */
   float: left;
   width: 50%;
 }
@@ -518,7 +537,7 @@ nav {
 
 .right-column a {
   color: #fff;
-}
+} */
 
 
 /** TRAILER SECTION **/
@@ -614,13 +633,13 @@ nav {
 
 
 /** RESPONSIVE **/
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
   .page-bg {
     left: 0;
-  }
+  } */
 
   /** titles **/
-  .titles-section {
+  /* .titles-section {
     margin: 0 !important;
     padding-top: 2rem;
   }
@@ -628,12 +647,12 @@ nav {
   .titles-wrapper {
     height: 100vh;
     justify-content: center;
-    
+
   }
 
   .titles-headliners {
     width: 100%;
-    padding: 0 .5rem 5rem .5rem; 
+    padding: 0 .5rem 5rem .5rem;
   }
 
   .titles-quote {
@@ -643,14 +662,14 @@ nav {
     font-size: 14px !important;
     margin-top: 22rem;
     padding-left: 0;
-  }
+  } */
 
-  .titles-quote span {
+  /* .titles-quote span {
     font-size: 10px !important;
-    /* text-align: left !important; */
-  }
+    text-align: left !important;
+  } */
 
-  .quick-buttons {
+  /* .quick-buttons {
     padding-top: 3rem;
   }
 
@@ -659,7 +678,7 @@ nav {
     height: calc(7vw + 6px);
     font-weight: 500;
     padding-top: 3px;
-  }
+  } */
 
   /** streaming section **/
   /* .streaming-section {
@@ -678,12 +697,12 @@ nav {
     display: flex;
     flex-wrap: wrap;
   } */
-}
 
 
 
 
-@media screen and (max-width: 1366px) {
+
+/* @media screen and (max-width: 1366px) {
   .synopsis-section {
     max-width: 57vw;
   }
@@ -750,6 +769,4 @@ screen and (device-width: 1138px) and (device-height: 712px) and (orientation: l
     left: 0;
     background-size: auto 80vh;
   }
-}
-
-
+} */
