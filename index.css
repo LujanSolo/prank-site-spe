@@ -853,6 +853,7 @@ screen and (device-width: 1138px) and (device-height: 712px) and (orientation: l
   -webkit-transform: rotate(-45deg);
   /* Chrome, Safari, Opera */
   transform: rotate(-45deg);
+  background: transparent;
 }
 
 
@@ -879,19 +880,20 @@ screen and (device-width: 1138px) and (device-height: 712px) and (orientation: l
 }
 
 .twitter .border:hover {
-  background: #00aced;
+  background: #010e13;
   border-color: #72c6e6;
   color: rgba(255, 255, 255, 0.9);
   transform: scale(1.2);
 }
 
-.fa.fa-twitter {
+.fa-x-twitter {
   font-size: 25px;
   -ms-transform: rotate(-45deg);
   /* IE 9 */
   -webkit-transform: rotate(-45deg);
   /* Chrome, Safari, Opera */
   transform: rotate(-45deg);
+  background: transparent;
 }
 
 
@@ -918,7 +920,7 @@ screen and (device-width: 1138px) and (device-height: 712px) and (orientation: l
 }
 
 .instagram .border:hover {
-  background: #517fa4;
+  background: linear-gradient(to left, #f09433, #e6683c, #dc2743, #cc2366, #bc1888, #8a3ab9, #4a69bb);
   border-color: #7495af;
   color: rgba(255, 255, 255, 0.9);
   transform: scale(1.2);
@@ -931,4 +933,5 @@ screen and (device-width: 1138px) and (device-height: 712px) and (orientation: l
   -webkit-transform: rotate(-45deg);
   /* Chrome, Safari, Opera */
   transform: rotate(-45deg);
+  background: transparent;
 }
