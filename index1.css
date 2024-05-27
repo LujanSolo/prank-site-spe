@@ -347,45 +347,77 @@ body {
   }
 }
 
-/** TRAILERS SECTION **/
+/** TRAILER SECTION **/
 .trailer-section {
   height: 912px;
+}
+
+.embed-responsive {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.embed-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /** STREAMING SECTION **/
 .streaming-section {
   height: 100vh;
-
+  text-align: center;
 }
 .stream-bg {
+  /* position: relative; */
+  /* left: -60px; */
   width: 100vw;
-  height: 100vh;
-  background-image: url(./assets/images/stream-bg.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+  /* height: 50%; */
+  /* background-image: url(./assets/images/stream-bg.png); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
   margin-top: 40px;
   z-index: -999;
   position: absolute;
-  /* left: 0; */
+  left: 0;
 }
 
+.streaming-h2 {}
+
 .streaming-icons-box {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-top: 80px;
+  /* position: relative; */
+  
+  /* bottom: 333px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  /* padding-top: 200px; */
+  /* justify-content: space-between; */
+  /* padding-top: 210px; */
   /* gap: 80px; */
   /* padding-top: 20px; */
 }
 
 .streaming-icon {
-  width: 50%;
-  border: 1px solid rgb(159, 210, 255);
-  border-radius: 15px;
+  width: 20%;
+  /* border: 2px solid rgb(0, 116, 218);
+  border-radius: 45px; */
 }
 
 
 /** SYNOPSIS SECTION **/
+.synopsis-section {
+  /* height: 912px; */
+  /* padding-bottom: 20px !important; */
+}
+
 .synopsis-poster {
   border: 1px solid white !important;
 }
@@ -404,7 +436,7 @@ footer {
   bottom: 0;
   background: #000000;
   font-size: 10px;
-  padding: 5px 0;
+  /* padding: 5px 0; */
   color: rgb(224, 226, 230);
   z-index: 2000;
   position: fixed;
