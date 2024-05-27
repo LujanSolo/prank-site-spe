@@ -375,46 +375,23 @@ body {
 }
 
 .stream-bg {
-  /* position: relative; */
-  /* left: -60px; */
   width: 100vw;
-  /* height: 50%; */
-  /* background-image: url(./assets/images/stream-bg.png); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  /* margin-top: 40px; */
   z-index: -999;
   position: absolute;
   left: 0;
   padding: 20px;
 }
 
-.streaming-h2 {}
 
-.streaming-icons-box {
-  /* padding-top: 106px; */
-  /* position: relative; */
-
-  /* bottom: 333px; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* flex-wrap: wrap; */
-  /* justify-content: center; */
-  /* padding-top: 200px; */
-  /* justify-content: space-between; */
-  /* padding-top: 210px; */
-  /* gap: 80px; */
-  /* padding-top: 20px; */
-}
 
 .streaming-icons-box a {
   max-width: 30%;
 }
 
 .streaming-icon {
-  width: 45%;
-  /* border: 2px solid rgb(0, 116, 218);
-  border-radius: 45px; */
+  width: 65%;
+  border: 3px solid rgb(218, 225, 232);
+  border-radius: 25%;
 }
 
 
