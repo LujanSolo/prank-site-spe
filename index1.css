@@ -37,8 +37,7 @@ body {
   display: flex !important;
 }
 
-.dropdown-menu li {
-}
+.dropdown-menu li {}
 
 .share-icon {
   height: 20px;
@@ -372,8 +371,9 @@ body {
 /** STREAMING SECTION **/
 .streaming-section {
   height: 100vh;
-  text-align: center;
+  /* text-align: center; */
 }
+
 .stream-bg {
   /* position: relative; */
   /* left: -60px; */
@@ -382,18 +382,19 @@ body {
   /* background-image: url(./assets/images/stream-bg.png); */
   /* background-size: cover; */
   /* background-repeat: no-repeat; */
-  margin-top: 40px;
+  /* margin-top: 40px; */
   z-index: -999;
   position: absolute;
   left: 0;
+  padding: 20px;
 }
 
 .streaming-h2 {}
 
 .streaming-icons-box {
-  padding-top: 106px;
+  /* padding-top: 106px; */
   /* position: relative; */
-  
+
   /* bottom: 333px; */
   /* display: flex; */
   /* flex-direction: column; */
@@ -407,11 +408,11 @@ body {
 }
 
 .streaming-icons-box a {
-  max-width: 50%;
+  max-width: 30%;
 }
 
 .streaming-icon {
-  width: 35%;
+  width: 45%;
   /* border: 2px solid rgb(0, 116, 218);
   border-radius: 45px; */
 }
@@ -419,8 +420,8 @@ body {
 
 /** SYNOPSIS SECTION **/
 .synopsis-section {
-  /* height: 912px; */
-  /* padding-bottom: 20px !important; */
+  /* height: 100%; */
+  
 }
 
 .synopsis-poster {
@@ -429,7 +430,8 @@ body {
 
 .synopsis-anchor {
   color: #d5d5d5;
- text-decoration: none;;
+  text-decoration: none;
+  ;
 }
 
 
