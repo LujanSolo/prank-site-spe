@@ -42,8 +42,6 @@ body {
   display: flex !important;
 }
 
-.dropdown-menu li {}
-
 .share-icon {
   height: 20px;
   margin: 5px;
@@ -63,8 +61,9 @@ body {
   box-shadow: none !important;
 }
 
-.nav-link {
-  color: #f8f9fa !important;
+.active {
+  color: black !important;
+  background: #d5d5d5 !important;
 }
 
 .navbar-offcanvas {
@@ -376,7 +375,6 @@ body {
 /** STREAMING SECTION **/
 .streaming-section {
   height: 100vh;
-  /* text-align: center; */
 }
 
 .stream-bg {
@@ -386,8 +384,6 @@ body {
   left: 0;
   padding: 20px;
 }
-
-
 
 .streaming-icons-box a {
   max-width: 30%;
