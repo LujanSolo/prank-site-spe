@@ -1,5 +1,3 @@
-
-
 document.addEventListener('DOMContentLoaded', function () {
   const offcanvas = document.getElementById('offcanvasDarkNavbar');
   const links = document.querySelectorAll('.nav-link');
