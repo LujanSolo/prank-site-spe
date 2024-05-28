@@ -13,7 +13,6 @@
   <link
     href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
     rel="stylesheet" />
-
 </head>
 
 <body>
@@ -100,7 +99,7 @@
   </nav>
 
   <!--* MAIN -->
-  <main>
+  <main class="d-flex flex-column">
 
     <!--* HOME -->
     <!-- background container-->
@@ -114,8 +113,7 @@
       </div>
     </div>
     <!-- titles and quote -->
-    <section id="home"
-      class="container-fluid titles-section d-flex flex-column">
+    <section id="home" class="container-fluid titles-section d-flex flex-column flex-grow-1 min-vh-100">
       <div class="row top-row">
         <img class="col titles-headliners img-fluid" src="./assets/images/names.png"
           alt="Headline Actors: Connor Kalopsis, Ramona Young, and Rita Moreno" />
@@ -141,16 +139,15 @@
           <a class="col-auto rainbow-button" href="#trailer">TRAILER</a>
           <a class="col-auto rainbow-button" href="#streaming">STREAM</a>
         </div>
-
-
+        <div class="iconic-logo row justify-content-end">
+          <img class="col img-fluid" src="./assets/images/iconic-logo.png" alt="Iconic Releasing logo" />
+        </div>
       </div>
-      <div class="iconic-logo row justify-content-end">
-        <img class="img-fluid" src="./assets/images/iconic-logo.png" alt="Iconic Releasing logo" />
-      </div>
+     
     </section>
 
     <!--* TRAILER -->
-    <section id="trailer" class="trailer-section text-center d-flex align-items-center">
+    <section id="trailer" class="trailer-section text-center d-flex align-items-center flex-grow-1 min-vh-100">
       <div class="container-fluid trailer-container">
         <div class="row justify-content-center align-items-center trailer-row">
           <div class="col-12 col-lg-10">
@@ -167,7 +164,7 @@
     </section>
 
     <!--* STREAMING -->
-    <section id="streaming" class="streaming-section mt-5 mb-5">
+    <section id="streaming" class="streaming-section mt-5 mb-5 flex-grow-1 min-vh-100">
       <div class="row text-center">
         <h2 class="streaming-h2 col">STREAMING NOW ON</h2>
       </div>
@@ -203,15 +200,15 @@
           </a>
         </div>
       </div>
-      
-        <div class="row stream-bg">
-          <img class="col img-fluid" src="./assets/images/prank-streaming-kalopsis.jpg">
-        </div>
-     
+
+      <div class="row stream-bg">
+        <img class="col img-fluid" src="./assets/images/prank-streaming-kalopsis.jpg">
+      </div>
+
     </section>
 
     <!--* SYNOPSIS -->
-    <section id="synopsis" class="container-fluid synopsis-section">
+    <section id="synopsis" class="container-fluid synopsis-section flex-grow-1 min-vh-100">
 
       <div class="row text-center synopsis-headline mb-3">
         <h2 class="synopsis-h2 col">SYNOPSIS</h2>
@@ -230,7 +227,7 @@
             trying to ruin her life by framing her for the murder of a missing student on social media.
           </p>
         </div>
-  
+
         <p class="row">
           <span class="col">Director</span>
           <span class="col text-end">
@@ -289,8 +286,8 @@
               rel="noopener">Keith
               David</a>,
             <a class="synopsis-anchor"
-              href="https://www.imdb.com/name/nm0281212/?ref_=nv_sr_srsg_0_tt_1_nm_7_q_Kate%2520Flannery" target="_blank"
-              rel="noopener">Kate Flannery</a>,
+              href="https://www.imdb.com/name/nm0281212/?ref_=nv_sr_srsg_0_tt_1_nm_7_q_Kate%2520Flannery"
+              target="_blank" rel="noopener">Kate Flannery</a>,
             <a class="synopsis-anchor"
               href="https://www.imdb.com/name/nm0001694/?ref_=nv_sr_srsg_0_tt_0_nm_1_q_Meredith%2520Salenger"
               target="_blank" rel="noopener">Meredith Salenger</a>,
@@ -335,7 +332,7 @@
           </span>
         </p>
       </div>
-     
+
     </section>
 
   </main>
