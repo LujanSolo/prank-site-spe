@@ -1,8 +1,5 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  line-height: 1.5;
+  line-height: 1.5 !important;
 }
 
 html {
@@ -14,16 +11,14 @@ body {
   font-weight: 400 !important;
   color: #d5d5d5 !important;
   letter-spacing: 1px !important;
-  background-color: #040404 !important;
+  background-color: #000 !important;
   font-size: 14px;
   scroll-behavior: smooth;
 }
 
 main {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content:space-between !important;
-  height: 100vh !important; /* Adjust as needed or remove if not required */
+  width: 100% !important;
+  
 }
 
 section {
@@ -385,9 +380,6 @@ section {
 }
 
 /** TRAILER SECTION **/
-.trailer-section {
-  background-color: #000;
-}
 .embed-responsive {
   position: relative;
   padding-bottom: 56.25%;
@@ -406,6 +398,9 @@ section {
 }
 
 /** STREAMING SECTION **/
+.streaming-section {
+  background-color: #0a0909;
+}
 .stream-bg {
   width: 90%;
   max-width: 350px;
@@ -426,10 +421,9 @@ section {
 
 
 /** SYNOPSIS SECTION **/
-.synopsis-section {
-  /* background-color: #000; */
+.streaming-section {
+  min-height: 100vh !important;
 }
-
 .streaming-h2,
 .synopsis-h2,
 .trailer-h2,
@@ -464,7 +458,7 @@ section {
 
 /** INFO SECTION **/
 .info-section {
-  background-color: #000;
+  background-color: #0a0909;
 }
 
 .info-link {
