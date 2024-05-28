@@ -424,7 +424,8 @@ section {
 
 .streaming-h2,
 .synopsis-h2,
-.trailer-h2 {
+.trailer-h2,
+.info-h2 {
   font-weight: 900;
 }
 
@@ -451,6 +452,17 @@ section {
 
 .synopsis-rating-bug {
   max-height: 35px;
+}
+
+/** INFO SECTION **/
+.info-section {
+  background-color: #000;
+}
+
+.info-link {
+  color: #d5d5d5;
+  text-decoration: none;
+
 }
 
 
