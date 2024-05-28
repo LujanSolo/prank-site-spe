@@ -516,9 +516,26 @@ footer .rating-bug {
 
 
 /** MEDIA QUERIES **/
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 992px) {
+  .titles-section {
+    display: flex !important;
+    width: 70% !important;
+    position: relative !important;
+    left: 100px;
+  }
 
+  .titles-quote {
+    max-width: 40vw !important;
+    text-align: start !important;
+    position: absolute !important;
+    top: 20vh !important;
+    left: 20vw !important;
+  }
 }
+
+/* @media screen and (max-width: 768px) {
+
+} */
 
 @media screen and (min-width: 564px) {
   .page-bg {
