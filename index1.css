@@ -47,6 +47,9 @@ section {
 
 
 /** NAVBAR */
+.navbar {
+  background-color: #00000059;
+}
 .share-dropdown .show {
   min-width: 7rem !important;
   display: flex !important;
