@@ -356,10 +356,10 @@ body {
 
 .iconic-logo {
   width: 150px;
-  max-width: 25%;
+  max-width: 20%;
   position: absolute;
-  right: 2%;
-  bottom: 23%;
+  right: 1%;
+  bottom: 1%;
 }
 
 /** TRAILER SECTION **/
@@ -390,7 +390,9 @@ body {
 }
 
 .stream-bg {
-  width: 100vw;
+  width: 60vw;
+  position: relative;
+  left: 20vw;
 }
 
 .streaming-icons-box a {
@@ -405,11 +407,15 @@ body {
 
 
 /** SYNOPSIS SECTION **/
-/* .synopsis-section {
-  height: 100% !important;
-  margin-top: 500px !important;
+.synopsis-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: left !important;
+  height: 100vh !important;
+  margin-top: 200px !important;
   padding-bottom: 10px !important;
-} */
+  text-align: left !important;
+}
 
 .streaming-h2,
 .synopsis-h2,
@@ -418,9 +424,20 @@ body {
 }
 
 .synopsis-poster {
+  width: 90%;
+  max-width: 500px;
   border: 1px solid white !important;
+  position: relative;
+  left: 6vw;
 }
 
+.synopsis-text-box {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  width: 90%;
+  max-width: 600px !important;
+
+}
 
 .synopsis-anchor {
   color: #d5d5d5;
