@@ -377,6 +377,9 @@ section {
 }
 
 /** TRAILER SECTION **/
+.trailer-section {
+  background-color: #000;
+}
 .embed-responsive {
   position: relative;
   padding-bottom: 56.25%;
@@ -395,16 +398,6 @@ section {
 }
 
 /** STREAMING SECTION **/
-.streaming-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: left !important;
-  height: 100vh !important;
-  padding-top: 200px !important;
-  padding-bottom: 10px !important;
-  text-align: left !important;
-}
-
 .stream-bg {
   width: 90%;
   max-width: 350px;
@@ -426,13 +419,7 @@ section {
 
 /** SYNOPSIS SECTION **/
 .synopsis-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: left !important;
-  height: 100vh !important;
-  margin-top: 200px !important;
-  padding-bottom: 10px !important;
-  text-align: left !important;
+  /* background-color: #000; */
 }
 
 .streaming-h2,
