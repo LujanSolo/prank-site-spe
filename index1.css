@@ -420,6 +420,10 @@ body {
   text-decoration: none;
 }
 
+.synopsis-rating-bug {
+  max-height: 35px;
+}
+
 
 /** FOOTER **/
 footer {
@@ -428,8 +432,7 @@ footer {
   align-items: center;
   bottom: 0;
   background: #000000;
-  font-size: 10px;
-  /* padding: 5px 0; */
+  font-size: 8px;
   color: rgb(224, 226, 230);
   z-index: 2000;
   position: fixed;
@@ -445,7 +448,7 @@ footer {
 footer .rating-bug {
   position: absolute;
   left: 15px;
-  width: 60px;
+  width: 40px;
 }
 
 .footer-links a {
@@ -453,7 +456,6 @@ footer .rating-bug {
   color: rgb(224, 226, 230);
   margin: 0 5px;
 }
-
 
 #offcanvasBottom * {
   background-color: #000000;
@@ -470,10 +472,6 @@ footer .rating-bug {
 .billing-block {
   max-width: 95%;
   background-color: #000000 !important;
-}
-
-.rating-bug {
-  max-height: 35px;
 }
 
 .credits-btn {
@@ -504,23 +502,6 @@ footer .rating-bug {
   padding-top: 120px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** clearFix **/
 @mixin clearfix() {
   &::after {
@@ -530,7 +511,42 @@ footer .rating-bug {
   }
 }
 
-
 .element {
   @include clearfix;
+}
+
+
+/** MEDIA QUERIES **/
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (min-width: 564px) {
+  .page-bg {
+    background-image: url(./assets/images/bg.jpg);
+    left: -20vw;
+    background-size: auto 80vh;
+  }
+
+  .titles-headliners {
+    max-width: 90vw !important;
+  }
+
+  .titles-quote {
+    font-size: 14px;
+    max-width: 40vw !important;
+    text-align: start !important;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+  }
+
+  .titles-small-title {
+    display: none !important;
+  }
+
+  .titles-main-title {
+    display: block !important;
+    width: 90vw !important;
+  }
 }
