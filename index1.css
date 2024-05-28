@@ -465,7 +465,11 @@ section {
   color: #d5d5d5;
   font-weight: 500;
   text-decoration: none;
-  
+}
+
+.info-home-btn {
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .info-link:hover {
