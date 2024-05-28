@@ -217,7 +217,7 @@ body {
 }
 
 .bottom-rows {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .titles-quote {
@@ -517,11 +517,15 @@ footer .rating-bug {
 
 /** MEDIA QUERIES **/
 @media screen and (min-width: 992px) {
+  .page-bg {
+    left: 2vw !important;
+  }
+
   .titles-section {
     display: flex !important;
-    width: 70% !important;
+    width: 60% !important;
     position: relative !important;
-    left: 100px;
+    left: 140px;
   }
 
   .titles-quote {
