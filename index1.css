@@ -199,6 +199,10 @@ body {
 }
 
 /** HOMEPAGE **/
+.titles-main-title {
+  display: none !important;
+}
+
 .titles-section {
   margin-top: 65px !important;
   height: 100vh;
@@ -382,7 +386,6 @@ body {
   z-index: -999;
   position: absolute;
   left: 0;
-  padding: 20px;
 }
 
 .streaming-icons-box a {
@@ -400,7 +403,12 @@ body {
 .synopsis-section {
   height: 100%;
   margin-top: 100px;
-  
+}
+
+.streaming-h2,
+.synopsis-h2,
+.trailer-h2 {
+  font-weight: 900;
 }
 
 .synopsis-poster {
