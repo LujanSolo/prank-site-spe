@@ -466,8 +466,13 @@ section {
 
 .info-link {
   color: #d5d5d5;
+  font-weight: 500;
   text-decoration: none;
+  
+}
 
+.info-link:hover {
+  color: #8fafc5 !important;
 }
 
 
@@ -524,7 +529,6 @@ footer .rating-bug {
   cursor: pointer !important;
   color: #f3f8fa !important;
   font-size: 9px !important;
-  cursor: pointer !important;
 }
 
 .credits-btn::after {
@@ -593,6 +597,8 @@ footer .rating-bug {
   }
 }
 
+
+
 @media screen and (min-width: 992px) {
   .page-bg {
     left: 2vw !important;
@@ -610,7 +616,7 @@ footer .rating-bug {
     text-align: start !important;
     position: absolute !important;
     top: 15vh !important;
-    left: 15vw !important;
+    left: 20vw !important;
     font-size: 20px !important;
   }
 
